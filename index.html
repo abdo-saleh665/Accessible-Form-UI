@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <title>Accessible Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-section">
+
+            <label>Full Name</label>
+            <input type="text" placeholder="What should we call you?" style="background: #ffffff;">
+
+            <label>Email</label>
+            <input type="email" value="john@doe.com" style="border-color: red; color: red;">
+
+            <p class="error">Email is already taken</p>
+
+            <label>Enter Password</label>
+            <input type="password" placeholder="xxxxxxxx">
+
+            <label>Confirm Password</label>
+            <input type="password" placeholder="xxxxxxxx">
+
+            <button>Update Profile</button>
+        </div>
+
+        <div class="profile-completeness">
+
+            <div class="progress-circle">65%</div>
+
+            <h4>Profile Completeness</h4>
+
+            <div class="progress-menu"><br>
+
+                <p class="done">Create Account</p>
+                <p class="done">Update Roadmap Progress</p>
+                <p class="done">Setup Public Profile</p>
+                <p class="todo">Complete your first project</p>
+                <p class="todo">Invite your Friends</p>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
